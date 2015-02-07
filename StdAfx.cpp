@@ -1,5 +1,5 @@
 // stdafx.cpp : source file that includes just the standard includes
-//	ModelRetrieval.pch will be the pre-compiled header
+//	3DRetrieval.pch will be the pre-compiled header
 //	stdafx.obj will contain the pre-compiled type information
 
 #include "stdafx.h"
