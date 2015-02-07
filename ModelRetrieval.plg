@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ModelRetrieval - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ModelRetrieval.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEB.tmp" 
+Creating temporary file "C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ModelRetrieval.pdb" /machine:I386 /out:"Release/ModelRetrieval.exe" 
+".\Release\DialogBase.obj"
+".\Release\DialogParamentSet.obj"
+".\Release\ImageBaseManage.obj"
+".\Release\MainFrm.obj"
+".\Release\ModelRetrieval.obj"
+".\Release\ModelRetrievalDoc.obj"
+".\Release\ModelRetrievalView.obj"
+".\Release\RetrievalControl.obj"
+".\Release\StdAfx.obj"
+".\Release\CFeatureExtractMethod.obj"
+".\Release\cjpeg.obj"
+".\Release\idct.obj"
+".\Release\Matrix.obj"
+".\Release\PictCtrl.obj"
+".\Release\Picture.obj"
+".\Release\StatLink.obj"
+".\Release\ModelRetrieval.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEC.tmp"
+<h3>Output Window</h3>
+Compiling...
+RetrievalControl.cpp
+E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp(762) : warning C4101: 'j' : unreferenced local variable
+E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp(779) : warning C4101: 'j' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+ModelRetrieval.exe - 0 error(s), 2 warning(s)
+<h3>
+--------------------Configuration: ModelRetrieval - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ModelRetrieval.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEE.tmp" 
+Creating temporary file "C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ModelRetrieval.pdb" /debug /machine:I386 /out:"Debug/ModelRetrieval.exe" /pdbtype:sept 
+".\Debug\DialogBase.obj"
+".\Debug\DialogParamentSet.obj"
+".\Debug\ImageBaseManage.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ModelRetrieval.obj"
+".\Debug\ModelRetrievalDoc.obj"
+".\Debug\ModelRetrievalView.obj"
+".\Debug\RetrievalControl.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CFeatureExtractMethod.obj"
+".\Debug\cjpeg.obj"
+".\Debug\idct.obj"
+".\Debug\Matrix.obj"
+".\Debug\PictCtrl.obj"
+".\Debug\Picture.obj"
+".\Debug\StatLink.obj"
+".\Debug\ModelRetrieval.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPEF.tmp"
+<h3>Output Window</h3>
+Compiling...
+RetrievalControl.cpp
+E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp(762) : warning C4101: 'j' : unreferenced local variable
+E:\lizhen1\³ÌÐò¿â\ÂÞºÆ\program\ModelRetrieval\RetrievalControl.cpp(779) : warning C4101: 'j' : unreferenced local variable
+Linking...
+Creating temporary file "C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPF0.tmp" with contents
+[
+/nologo /o"Debug/ModelRetrieval.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\DialogBase.sbr"
+".\Debug\DialogParamentSet.sbr"
+".\Debug\ImageBaseManage.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\ModelRetrieval.sbr"
+".\Debug\ModelRetrievalDoc.sbr"
+".\Debug\ModelRetrievalView.sbr"
+".\Debug\RetrievalControl.sbr"
+".\Debug\CFeatureExtractMethod.sbr"
+".\Debug\cjpeg.sbr"
+".\Debug\idct.sbr"
+".\Debug\Matrix.sbr"
+".\Debug\PictCtrl.sbr"
+".\Debug\Picture.sbr"
+".\Debug\StatLink.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\luzhiman\LOCALS~1\Temp\RSPF0.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ModelRetrieval.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
